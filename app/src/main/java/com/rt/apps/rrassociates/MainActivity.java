@@ -59,7 +59,7 @@ public void onClick(View view) {
         settings.setUseWideViewPort(true);
         settings.setSavePassword(true);
         settings.setSaveFormData(true);
-        wv.loadUrl("https://tilwani03.wixsite.com/website");
+        wv.loadUrl("https:rrassociateswealth.com");
         wv.setWebViewClient(new MywebViewClient());
         }
 @Override
