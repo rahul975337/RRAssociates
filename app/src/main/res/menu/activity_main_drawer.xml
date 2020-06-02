@@ -2,7 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
 
+            android:title="Home"
+
+            />
         <item
             android:id="@+id/nav_services"
             android:icon="@drawable/ic_menu_share"
@@ -11,12 +17,29 @@
             />
         <item
             android:id="@+id/nav_updates"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_menu_slideshow"
             android:title="Updates" />
         <item
             android:id="@+id/nav_contact"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_send"
             android:title="Contact" />
+
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Facebook page" />
+        <item
+            android:id="@+id/nav_telegram"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Telegram channel" />
+        <item
+        android:id="@+id/nav_twitter"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Twitter page" />
+        <item
+            android:id="@+id/nav_whatsapp"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Whatsapp" />
     </group>
 
 </menu>

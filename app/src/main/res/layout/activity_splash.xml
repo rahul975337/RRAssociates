@@ -11,7 +11,8 @@
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/rrsp"
+        android:src="@drawable/gradforsplash"
+        android:scaleType="fitXY"
        android:background="@color/colorPrimaryDark" />
 
 </LinearLayout>

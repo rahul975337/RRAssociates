@@ -101,7 +101,17 @@ public boolean onNavigationItemSelected(MenuItem item) {
         wv.loadUrl("https://www.rrassociateswealth.com/blog");
         }else if (id == R.id.nav_contact) {
         wv.loadUrl("https://www.rrassociateswealth.com/contact");
-        }
+        }else if(id == R.id.nav_home){
+             wv.loadUrl("https://www.rrassociateswealth.com");
+         }else if(id == R.id.nav_telegram){
+             wv.loadUrl("https://t.me/joinchat/AAAAAE5j8p4O5QgLbMtuKQ");
+         }else if(id == R.id.nav_twitter){
+             wv.loadUrl("https://twitter.com/RR_Associates?s=09");
+         }else if(id == R.id.nav_facebook){
+             wv.loadUrl("https://www.facebook.com/RRAssociatesWealth");
+         }else if(id == R.id.nav_whatsapp){
+             wv.loadUrl("https://wa.me/919370725113?text=Hello%2C%20I%20checked%20your%20App");
+         }
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
